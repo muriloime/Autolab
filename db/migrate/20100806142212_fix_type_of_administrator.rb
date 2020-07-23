@@ -3,7 +3,8 @@
 
 class FixTypeOfAdministrator < ActiveRecord::Migration[4.2]
   def self.up
-    change_column :users, :administrator, :boolean, :default=>false
+    remove_column :users, :administrator
+    add_column :users, :administrator, :boolean, default: false
   end
 
   def self.down

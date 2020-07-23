@@ -1,6 +1,6 @@
 class AddGraderOptionToMeetings < ActiveRecord::Migration[4.2]
   def self.up
-    add_column :meetings, :grader_visible, :boolean, :default => 1
+    add_column :meetings, :grader_visible, :boolean, :default => true
   end
 
   def self.down
