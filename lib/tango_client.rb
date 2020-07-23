@@ -1,6 +1,6 @@
 require "httparty"
 require "cgi"
-require Rails.root.join("config", "autogradeConfig.rb")
+require Rails.root.join("config", "autogradeConfig.rb").to_s
 
 ##
 # Ruby API Client of Tango
