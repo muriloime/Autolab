@@ -76,6 +76,7 @@ gem 'rack-test'
 gem 'capybara', group: [:development, :test]
 gem 'factory_bot_rails', group: [:development, :test]
 gem 'database_cleaner', group: [:development, :test]
+gem 'pry-rails', group: [:development, :test]
 gem 'webmock', group: [:development, :test]
 gem 'codeclimate-test-reporter', group: :test, require: nil
 gem 'newrelic_rpm'
