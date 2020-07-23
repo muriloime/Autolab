@@ -165,7 +165,6 @@ GEM
     multi_json (1.14.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
-    mysql2 (0.4.10)
     net-ldap (0.16.2)
     newrelic_rpm (6.9.0.363)
     nio4r (2.5.2)
@@ -201,6 +200,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
+    pg (1.2.3)
     populator (1.0.0)
     prawn (0.13.0)
       afm
@@ -356,13 +356,13 @@ DEPENDENCIES
   mimemagic (>= 0.3.5)
   mini_racer
   momentjs-rails (>= 2.9.0)
-  mysql2 (~> 0.4.10)
   net-ldap
   newrelic_rpm
   omniauth (>= 1.2.2)
   omniauth-facebook (>= 2.0.0)
   omniauth-google-oauth2 (>= 0.2.5)
   omniauth-shibboleth (>= 1.1.2)
+  pg
   populator (>= 1.0.0)
   prawn (= 0.13.0)
   rack-attack
@@ -385,7 +385,7 @@ DEPENDENCIES
   yard
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.1p83
 
 BUNDLED WITH
    1.17.3
